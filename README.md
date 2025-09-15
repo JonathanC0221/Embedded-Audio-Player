@@ -1,1 +1,3 @@
 # Embedded-Audio-Player
+
+This project is an embedded audio player implemented on an Altera MAX 10 FPGA using Quartus Prime and NIOS II. The player reads stereo 16-bit .wav files from a MicroSD card and outputs audio through a standard headphone jack. An LCD display shows the track number and filename on the first line, with player status (STOPPED, PAUSED, normal/half/double speed, mono) on the second line. Push buttons control Play/Pause, Stop, Previous, and Next functions, all hardware-debounced without software delays, enabling seamless playback, track navigation, and distortion-free audio at all speeds.
